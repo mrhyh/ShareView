@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044FE6A31CDCA02F00FB1296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6A21CDCA02F00FB1296 /* main.m */; };
+		044FE6A61CDCA02F00FB1296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6A51CDCA02F00FB1296 /* AppDelegate.m */; };
+		044FE6A91CDCA02F00FB1296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6A81CDCA02F00FB1296 /* ViewController.m */; };
+		044FE6AC1CDCA02F00FB1296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044FE6AA1CDCA02F00FB1296 /* Main.storyboard */; };
+		044FE6AE1CDCA02F00FB1296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044FE6AD1CDCA02F00FB1296 /* Assets.xcassets */; };
+		044FE6B11CDCA02F00FB1296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044FE6AF1CDCA02F00FB1296 /* LaunchScreen.storyboard */; };
+		044FE6BC1CDCA02F00FB1296 /* YYShareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6BB1CDCA02F00FB1296 /* YYShareViewTests.m */; };
+		044FE6C71CDCA03000FB1296 /* YYShareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6C61CDCA03000FB1296 /* YYShareViewUITests.m */; };
+		044FE6D81CDCA05F00FB1296 /* YYShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6D61CDCA05F00FB1296 /* YYShareView.m */; };
+		044FE6D91CDCA05F00FB1296 /* YYShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044FE6D71CDCA05F00FB1296 /* YYShareView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044FE6B81CDCA02F00FB1296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044FE6961CDCA02F00FB1296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044FE69D1CDCA02F00FB1296;
+			remoteInfo = YYShareView;
+		};
+		044FE6C31CDCA02F00FB1296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044FE6961CDCA02F00FB1296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044FE69D1CDCA02F00FB1296;
+			remoteInfo = YYShareView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044FE69E1CDCA02F00FB1296 /* YYShareView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYShareView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FE6A21CDCA02F00FB1296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044FE6A41CDCA02F00FB1296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044FE6A51CDCA02F00FB1296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044FE6A71CDCA02F00FB1296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044FE6A81CDCA02F00FB1296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044FE6AB1CDCA02F00FB1296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044FE6AD1CDCA02F00FB1296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044FE6B01CDCA02F00FB1296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044FE6B21CDCA02F00FB1296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FE6B71CDCA02F00FB1296 /* YYShareViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYShareViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FE6BB1CDCA02F00FB1296 /* YYShareViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYShareViewTests.m; sourceTree = "<group>"; };
+		044FE6BD1CDCA02F00FB1296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FE6C21CDCA02F00FB1296 /* YYShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYShareViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FE6C61CDCA03000FB1296 /* YYShareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYShareViewUITests.m; sourceTree = "<group>"; };
+		044FE6C81CDCA03000FB1296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FE6D51CDCA05F00FB1296 /* YYShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShareView.h; sourceTree = "<group>"; };
+		044FE6D61CDCA05F00FB1296 /* YYShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShareView.m; sourceTree = "<group>"; };
+		044FE6D71CDCA05F00FB1296 /* YYShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYShareView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044FE69B1CDCA02F00FB1296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE6B41CDCA02F00FB1296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE6BF1CDCA02F00FB1296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044FE6951CDCA02F00FB1296 = {
+			isa = PBXGroup;
+			children = (
+				044FE6A01CDCA02F00FB1296 /* YYShareView */,
+				044FE6BA1CDCA02F00FB1296 /* YYShareViewTests */,
+				044FE6C51CDCA03000FB1296 /* YYShareViewUITests */,
+				044FE69F1CDCA02F00FB1296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044FE69F1CDCA02F00FB1296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044FE69E1CDCA02F00FB1296 /* YYShareView.app */,
+				044FE6B71CDCA02F00FB1296 /* YYShareViewTests.xctest */,
+				044FE6C21CDCA02F00FB1296 /* YYShareViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044FE6A01CDCA02F00FB1296 /* YYShareView */ = {
+			isa = PBXGroup;
+			children = (
+				EB537F7C1CF5A19900A3029A /* Other */,
+				044FE6D41CDCA05F00FB1296 /* YYShare */,
+				044FE6A41CDCA02F00FB1296 /* AppDelegate.h */,
+				044FE6A51CDCA02F00FB1296 /* AppDelegate.m */,
+				044FE6A71CDCA02F00FB1296 /* ViewController.h */,
+				044FE6A81CDCA02F00FB1296 /* ViewController.m */,
+				044FE6AA1CDCA02F00FB1296 /* Main.storyboard */,
+				044FE6AD1CDCA02F00FB1296 /* Assets.xcassets */,
+				044FE6AF1CDCA02F00FB1296 /* LaunchScreen.storyboard */,
+				044FE6B21CDCA02F00FB1296 /* Info.plist */,
+				044FE6A11CDCA02F00FB1296 /* Supporting Files */,
+			);
+			path = YYShareView;
+			sourceTree = "<group>";
+		};
+		044FE6A11CDCA02F00FB1296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044FE6A21CDCA02F00FB1296 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044FE6BA1CDCA02F00FB1296 /* YYShareViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				044FE6BB1CDCA02F00FB1296 /* YYShareViewTests.m */,
+				044FE6BD1CDCA02F00FB1296 /* Info.plist */,
+			);
+			path = YYShareViewTests;
+			sourceTree = "<group>";
+		};
+		044FE6C51CDCA03000FB1296 /* YYShareViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044FE6C61CDCA03000FB1296 /* YYShareViewUITests.m */,
+				044FE6C81CDCA03000FB1296 /* Info.plist */,
+			);
+			path = YYShareViewUITests;
+			sourceTree = "<group>";
+		};
+		044FE6D41CDCA05F00FB1296 /* YYShare */ = {
+			isa = PBXGroup;
+			children = (
+				044FE6D51CDCA05F00FB1296 /* YYShareView.h */,
+				044FE6D61CDCA05F00FB1296 /* YYShareView.m */,
+				044FE6D71CDCA05F00FB1296 /* YYShareView.xib */,
+			);
+			path = YYShare;
+			sourceTree = "<group>";
+		};
+		EB537F7C1CF5A19900A3029A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044FE69D1CDCA02F00FB1296 /* YYShareView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FE6CB1CDCA03000FB1296 /* Build configuration list for PBXNativeTarget "YYShareView" */;
+			buildPhases = (
+				044FE69A1CDCA02F00FB1296 /* Sources */,
+				044FE69B1CDCA02F00FB1296 /* Frameworks */,
+				044FE69C1CDCA02F00FB1296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYShareView;
+			productName = YYShareView;
+			productReference = 044FE69E1CDCA02F00FB1296 /* YYShareView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044FE6B61CDCA02F00FB1296 /* YYShareViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FE6CE1CDCA03000FB1296 /* Build configuration list for PBXNativeTarget "YYShareViewTests" */;
+			buildPhases = (
+				044FE6B31CDCA02F00FB1296 /* Sources */,
+				044FE6B41CDCA02F00FB1296 /* Frameworks */,
+				044FE6B51CDCA02F00FB1296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044FE6B91CDCA02F00FB1296 /* PBXTargetDependency */,
+			);
+			name = YYShareViewTests;
+			productName = YYShareViewTests;
+			productReference = 044FE6B71CDCA02F00FB1296 /* YYShareViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044FE6C11CDCA02F00FB1296 /* YYShareViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FE6D11CDCA03000FB1296 /* Build configuration list for PBXNativeTarget "YYShareViewUITests" */;
+			buildPhases = (
+				044FE6BE1CDCA02F00FB1296 /* Sources */,
+				044FE6BF1CDCA02F00FB1296 /* Frameworks */,
+				044FE6C01CDCA02F00FB1296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044FE6C41CDCA02F00FB1296 /* PBXTargetDependency */,
+			);
+			name = YYShareViewUITests;
+			productName = YYShareViewUITests;
+			productReference = 044FE6C21CDCA02F00FB1296 /* YYShareViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044FE6961CDCA02F00FB1296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jack YY";
+				TargetAttributes = {
+					044FE69D1CDCA02F00FB1296 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					044FE6B61CDCA02F00FB1296 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044FE69D1CDCA02F00FB1296;
+					};
+					044FE6C11CDCA02F00FB1296 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044FE69D1CDCA02F00FB1296;
+					};
+				};
+			};
+			buildConfigurationList = 044FE6991CDCA02F00FB1296 /* Build configuration list for PBXProject "YYShareView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044FE6951CDCA02F00FB1296;
+			productRefGroup = 044FE69F1CDCA02F00FB1296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044FE69D1CDCA02F00FB1296 /* YYShareView */,
+				044FE6B61CDCA02F00FB1296 /* YYShareViewTests */,
+				044FE6C11CDCA02F00FB1296 /* YYShareViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044FE69C1CDCA02F00FB1296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE6D91CDCA05F00FB1296 /* YYShareView.xib in Resources */,
+				044FE6B11CDCA02F00FB1296 /* LaunchScreen.storyboard in Resources */,
+				044FE6AE1CDCA02F00FB1296 /* Assets.xcassets in Resources */,
+				044FE6AC1CDCA02F00FB1296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE6B51CDCA02F00FB1296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE6C01CDCA02F00FB1296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044FE69A1CDCA02F00FB1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE6D81CDCA05F00FB1296 /* YYShareView.m in Sources */,
+				044FE6A91CDCA02F00FB1296 /* ViewController.m in Sources */,
+				044FE6A61CDCA02F00FB1296 /* AppDelegate.m in Sources */,
+				044FE6A31CDCA02F00FB1296 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE6B31CDCA02F00FB1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE6BC1CDCA02F00FB1296 /* YYShareViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE6BE1CDCA02F00FB1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE6C71CDCA03000FB1296 /* YYShareViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044FE6B91CDCA02F00FB1296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044FE69D1CDCA02F00FB1296 /* YYShareView */;
+			targetProxy = 044FE6B81CDCA02F00FB1296 /* PBXContainerItemProxy */;
+		};
+		044FE6C41CDCA02F00FB1296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044FE69D1CDCA02F00FB1296 /* YYShareView */;
+			targetProxy = 044FE6C31CDCA02F00FB1296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044FE6AA1CDCA02F00FB1296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044FE6AB1CDCA02F00FB1296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044FE6AF1CDCA02F00FB1296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044FE6B01CDCA02F00FB1296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044FE6C91CDCA03000FB1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044FE6CA1CDCA03000FB1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044FE6CC1CDCA03000FB1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYShareView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYShareView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044FE6CD1CDCA03000FB1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYShareView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYShareView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044FE6CF1CDCA03000FB1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYShareViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYShareViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYShareView.app/YYShareView";
+			};
+			name = Debug;
+		};
+		044FE6D01CDCA03000FB1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYShareViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYShareViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYShareView.app/YYShareView";
+			};
+			name = Release;
+		};
+		044FE6D21CDCA03000FB1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYShareViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYShareViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYShareView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		044FE6D31CDCA03000FB1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYShareViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYShareViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYShareView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044FE6991CDCA02F00FB1296 /* Build configuration list for PBXProject "YYShareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE6C91CDCA03000FB1296 /* Debug */,
+				044FE6CA1CDCA03000FB1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044FE6CB1CDCA03000FB1296 /* Build configuration list for PBXNativeTarget "YYShareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE6CC1CDCA03000FB1296 /* Debug */,
+				044FE6CD1CDCA03000FB1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044FE6CE1CDCA03000FB1296 /* Build configuration list for PBXNativeTarget "YYShareViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE6CF1CDCA03000FB1296 /* Debug */,
+				044FE6D01CDCA03000FB1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044FE6D11CDCA03000FB1296 /* Build configuration list for PBXNativeTarget "YYShareViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE6D21CDCA03000FB1296 /* Debug */,
+				044FE6D31CDCA03000FB1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044FE6961CDCA02F00FB1296 /* Project object */;
+}
